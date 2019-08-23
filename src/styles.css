@@ -1,1 +1,8 @@
 @import "~bootstrap/dist/css/bootstrap.css";
+
+body{
+    background-image: url("../src/assets/photo.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
