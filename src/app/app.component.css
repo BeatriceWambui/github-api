@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+h1{
+    font-family: 'Fredoka One', cursive;
+    color:yellow;
+    text-align:center;
+    font-size:80px;
+    text-decoration:underline;
+    text-decoration:bold;
+}
