@@ -7,6 +7,8 @@ import { GithubNavbarComponent } from './github-navbar/github-navbar.component';
 import { GithubSearchFormComponent } from './github-search-form/github-search-form.component';
 import { GithubComponent } from './github/github.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { GitnewComponent } from './gitnew/gitnew.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -14,12 +16,14 @@ import { NotFoundComponent } from './not-found/not-found.component';
     GithubNavbarComponent,
     GithubSearchFormComponent,
     GithubComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    GitnewComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
