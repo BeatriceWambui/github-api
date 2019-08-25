@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  GITHUBAPIKEY:""
+  GITHUBAPIKEY:'dac03084a42944088d5ae55a2454e7f026e07f3b',
 };
 
 /*
