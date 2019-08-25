@@ -12,18 +12,24 @@ export class GithubComponent implements OnInit {
   constructor( public githubHttpService:GithubHttpService) { }
   
   ngOnInit() {
-    this.searchGithub("BeatriceWambui")
   }
 
   searchGithub(searchTerm){
-    this.githubHttpService.searchGithub(searchTerm).them(
-      ()=>{
+    console.log(searchTerm);
+    this.githubHttpService.searchGithub(searchTerm).then(
+      (success)=>{
         this.github=this.githubHttpService.github;
+        console.log(searchTerm);
       },
       (error)=>{
         console.log(error)
       }
     )
+  }
+
+
+  getRepos(){
+
   }
 
 }
